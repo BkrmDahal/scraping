@@ -181,7 +181,7 @@ class jobListing():
                 salary = salary,l = l, start=i, limit=50)
                 self.get_jobs()
         except:
-            print('No jobs in >>{}<<.\nTrying next item in list if any..\n '.format(self.params_list))
+            print('No jobs..Trying next item in list if any..\n ')
             
         
         #make detail as emptydict
